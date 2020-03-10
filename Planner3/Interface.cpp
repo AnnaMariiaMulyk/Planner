@@ -1,14 +1,18 @@
 #include "Interface.h"
 #include <iostream>;
 using namespace std;
-void menu(int choise)
+int menu()
 {
+	int choise;
 	cout << "\tMENU" << endl;
 	cout << "1. Add event" << endl;
 	cout << "2. Show my events" << endl;
-	cout << "3. Exit" << endl;
+	cout << "3. Show my events by category" << endl;
+	cout << "4. Exit" << endl;
 	cout << endl;
-	cout << "Enter acton: ";
+	cout << "Enter action: ";
 	cin >> choise;
+	
+	return choise;
 
 }

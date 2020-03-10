@@ -7,9 +7,9 @@ struct event
 	string category;
 	string name;
 	string description;
-	string importance;
+	int importance;
 	int day;
-	string month;
+	int month;
 	int year;
 
 };
